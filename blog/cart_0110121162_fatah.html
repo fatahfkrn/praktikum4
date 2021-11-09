@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Cart</title>
+</head>
+<body>
+    <div style="width: 100%;">
+        <nav class="nav">
+            <ul id="ul">
+                <li>
+                    <a href="">SITE NAME</a> 
+                </li>
+                <li>
+                    <a href="">Category 1</a> 
+                </li>
+                <li>
+                    <a href="">Category 2</a> 
+                </li>
+                <li>
+                    <a href="">Category 3</a> 
+                </li>
+                <li id="li">
+                    <a href="#"><img src="icon/check-circle.svg" alt=""></a> 
+                </li>
+                <li>
+                    <a href="#"><img src="icon/credit-card-fill.svg" alt=""></a> 
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 95%;">
+                <div>
+                    <h1>Your Cart</h1>
+                    <table style="border-collapse: collapse ; width: 650px; border: 1px solid black;" >
+                        <thead>
+                            <tr>
+                                <th style="border-top: 1px solid black; border-bottom: 1px solid black; padding: 10px; text-align: left;"> Item</th>
+                                <th style="border-top: 1px solid black; border-bottom: 1px solid black;">Price</th>
+                                <th style="border-top: 1px solid black; border-bottom: 1px solid black;">Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="border: none;"><img src="baju.jpg" alt="" style="height: 150px;"></td>
+                                <td style="align-items: center;"><b>$20.00</b></td>
+                                <td style="width: 50px; align-items: center;">
+                                    <select name="number" id="number">
+                                        <option value="1">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" style="padding: 10px;border-top: 1px solid black; border-bottom: 1px solid black;">Subtotal: <b>$20.00</b></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            <br>
+                <div>
+                    <table style="border-collapse: collapse; width: 270px; display: grid; background-color: gray;">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Summary (1 item)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sub Total</td>
+                                <td style="padding-left: 200px;">$20.00</td>
+                            </tr>
+                            <tr>
+                                <td>Shipping</td>
+                                <td style="padding-left: 200px;">-</td>
+                            </tr>
+                            <tr>
+                                <td>Est. Toxes</td>
+                                <td style="padding-left: 200px;">-</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><hr></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><b>Total</b></td>
+                                <td style="padding-left: 200px;"><b>$20.00</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="border-color: red;"><button type="submit" style="background-color: blue; color: white;width: 400px;"> Checkout</button></td>
+                                
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <br>
+        <footer style="display: flex; justify-content: space-between; height: 80%; padding-top: 100px;">
+            <nav style="display: flex; align-items: center;">
+                <ul style="display: flex; list-style-type: none;">
+                    <li style="margin-right: 30px;">
+                        <p>Site Name</p>
+                    </li>
+                    <li style="margin-right: 30px;">
+                        <p><a href="">Category X</a>|</p>  
+                    </li>
+                    <li style="margin-right: 30px;">
+                        <p><a href="">Category Y</a>|</p> 
+                    </li>
+                    <li style="margin-right: 30px;">
+                        <p><a href="">Category Z</a>|</p>
+                    </li>
+                </ul>
+            </nav>
+            <nav style="align-items: center;">
+                <p>Stay In Touch! Join our Newsletter.</p>
+                <ul style="list-style-type: none; display: flex;">
+                    <li><input type="email" placeholder="Enter Email"></li>
+                    <li><button style="border: none;">Subscribe</button></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

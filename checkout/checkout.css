@@ -1,0 +1,94 @@
+.div1 {
+}
+.nav1 {
+    background-color: gray;
+    height: 50px;
+}
+.ul1 {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.li1, #li1, #li2 {
+    padding-top: 20px;
+}
+.li1 {
+    margin-right: 40px;
+    list-style-type: none;
+}
+#li1 {
+    margin-right: 30px;
+    margin-left: auto;
+}
+#li2 {
+    margin-right: 30px;
+}
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+    width: 95%;
+}
+.tab1 {
+    border-collapse: collapse;
+    width: 300px;
+}
+#th {
+    height: 50px;
+}
+#tab {
+    width: 150%;
+}
+.tab2 {
+    width: 500px;
+}
+.td {
+    padding-left: 100px;
+}
+#hr {
+    width: 150%;
+}
+.div3 {
+    display: flex;
+    align-items: center;
+}
+.tab3 {
+    width: 270px;
+    display: grid;
+    background-color: gray;
+    width: 100%;
+    padding: 40px;
+}
+.th, .td2 {
+    padding-bottom: 20px;
+}
+#inp {
+    border: 2px solid black;
+}
+#button {
+    height: 20px;
+    width: 100px;
+}
+.div4 {
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#site {
+    padding-right: 100px;
+}
+.site {
+    padding-left: 10px;
+    padding-right: 5px; 
+}
+#tabs {
+    padding-left: 0;
+}
+#div {
+    margin-left: 300px;
+}
+#tr {
+    border-collapse: collapse;
+}

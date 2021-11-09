@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Checkout</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="div1">
+            <nav class="nav1">
+                <ul class="ul1">
+                    <li class="li1">
+                        <b>Site Name</b>
+                    </li>
+                    <li class="li1">
+                        <a href="">Category 1</a>
+                    </li>
+                    <li class="li1">
+                        <a href="">Category 2</a>
+                    </li>
+                    <li class="li1">
+                        <a href="">Category 3</a>
+                    </li>
+                    <li id="li1">
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg></a>
+                    </li>
+                    <li id="li2">
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="div2">
+            <div>
+                <div>
+                    <table class="tab1">
+                        <tr>
+                            <th rowspan="2"><img src="icon/check-circle.svg" id="th" alt="Icon"></th>
+                            <th>Order 131217312</th>
+                        </tr>
+                        <tr>
+                            <td>Thank You, Kenny</td>
+                        </tr>
+                    </table>
+                    <table id="tab">
+                        <tr>
+                            <th>
+                                <hr>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Your order is confirmed <br>
+                                    We've accepted your order and we're it getting it ready</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div>
+                    <h3>Customer Information</h3>
+                    <table class="tab2">
+                        <tr>
+                            <td>
+                                <p><b>Shipping Address</b> <br>
+                                    Kenny Bostick <br>
+                                    <a href="">12 Waldo Point Road Mishauken, NY 11200 United States</a>
+                                </p>
+                            </td>
+                            <td class="td">
+                                <p><b>Billing Address</b> <br>
+                                    Kenny Bostick <br>
+                                    <a href="">12 Waldo Point Road Mishauken, NY 11200 United States</a>
+
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <b>Shipping Method</b> <br>
+                                    UPS Ground (Estimated ship time of 3-6 days)
+                                </p>
+                            </td>
+                            <td class="td">
+                                <p><b>Payment Method</b> <br></p>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img src="icon/icons8-visa-30.png" alt="icon visa">
+                                        </td>
+                                        <td>
+                                            Ending in 3217 - $23.60
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <hr id="hr">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="div3">
+                <table class="tab3">
+                    <thead>
+                        <tr>
+                            <th>
+                                <b>Summary (1 Item)</b>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="th">Sub total</td>
+                            <td class="td2">$20.00</td>
+                        </tr>
+                        <tr>
+                            <td class="th">Shipping</td>
+                            <td class="td2">$2.20</td>
+                        </tr>
+                        <tr>
+                            <td class="th">Est. Toxes</td>
+                            <td class="td2">$1.40</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><hr></td>
+                        </tr>
+                        <tr>
+                            <td>Gift card or discount code</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="inp"></td>
+                            <td><button type="submit" id="button">Apply</button></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"><hr></td>
+
+                        </tr>
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td><b>$23.60</b></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <br><br>
+    </main>
+    <footer>
+        <div class="div4">
+            <div>
+                <table id="tabs">
+                    <tr>
+                        <td id="site">Site Name</td>
+                        <td class="site"><a href="">Category X</a></td>
+                        <td class="site"><a href="">Category Y</a></td>
+                        <td class="site"><a href="">Category Z</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="icon/icons8-visa-30.png" alt="">
+                            <img src="icon/icons8-mastercard-30.png" alt="">
+                            <img src="icon/icons8-credit-card-30.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div">
+                <table>
+                    <tr>
+                        <td><b>Stay In Touch! Join our Newsletter</b></td>
+                    </tr>
+                    <tr id="tr">
+                        <td><input type="email" placeholder="Enter Email">
+                        <button type="submit" value="Subscribe">Subscribe</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
